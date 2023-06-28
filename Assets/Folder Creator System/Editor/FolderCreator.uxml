@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Folder%20Creator%20System/Editor/FolderCreator.uss?fileID=7433441132597879392&amp;guid=45b06b6a7d6bba34caae3b91eb648cee&amp;type=3#FolderCreator" />
+    <ui:VisualElement name="AddFolderContainer" class="container">
+        <ui:Label text="Name Folder" display-tooltip-when-elided="true" name="addFolderHeader" class="header" />
+        <ui:TextField picking-mode="Ignore" text="Write folder name.." name="_addFolderTextField" style="min-width: auto; min-height: 30px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="DisplayFoldersContainer" class="container">
+        <ui:Label text="Folder List" display-tooltip-when-elided="true" class="header" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Vertical" name="_displayFoldersScrollView" style="flex-direction: row; flex-grow: 0;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ExecuteFoldersContainer" style="flex-grow: 1; justify-content: flex-end;">
+        <ui:Button text="Create Folders" display-tooltip-when-elided="true" name="_createFoldersButton" class="button" style="flex-shrink: 0; justify-content: center;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="NotificationContainer" class="container">
+        <ui:Label display-tooltip-when-elided="true" name="_notificationLabel" style="justify-content: flex-start; -unity-text-align: upper-center;" />
+    </ui:VisualElement>
+</ui:UXML>

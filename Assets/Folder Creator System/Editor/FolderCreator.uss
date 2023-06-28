@@ -1,0 +1,53 @@
+.header {
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    color: rgba(255, 182, 59, 255);
+}
+
+.container {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+.unity-scroll-view__content-container {
+    padding-right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.folderNameText {
+    background-color: rgba(48, 48, 48, 255);
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.unity-scroll-view {
+}
+
+.button {
+    background-color: rgba(92, 140, 90, 255);
+    height: 40px;
+}
+
+.notificationSuccess {
+    color: rgba(71, 154, 63, 255);
+}
+
+.notificationFail {
+    color: rgba(171, 44, 44, 255);
+}
